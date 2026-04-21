@@ -23,7 +23,17 @@ body {
   line-height: 1.7;
   font-size: 16px;
 }
-
+@media (max-width: 768px) {
+  .home-layout {
+    display: block !important;
+  }
+  .home-layout img {
+    width: 100% !important;
+    height: 250px !important;
+    margin-top: 2rem;
+    border-radius: 16px !important;
+  }
+}
 /* NAV */
 nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
